@@ -1,0 +1,28 @@
+﻿@model OAuth2Server.App.Authorization.UI.Account.ResetRequestViewModel
+
+<div class="login-page">
+    <div class="page-header center">
+        <h1>Reset Password</h1>
+    </div>
+
+    <div class="center">
+            <div class="panel panel-login panel-default">
+                <div class="panel-body">
+                    <form asp-route="Account">
+                        <fieldset>
+                            <div class="form-group">
+                                <label asp-for="ResetEmail" class="pull-left control-label">Enter your email address</label>
+                                <input asp-for="ResetEmail" class="form-control" placeholder="Email" />
+                                <span asp-validation-for="ResetEmail" class="text-danger"></span>
+                            </div>
+                        </fieldset>
+                        <div class="form-group">
+                            <a href="~/UI/login" class="btn btn-primary pull-left">Cancel</a>
+                            <button class="btn btn-primary pull-right">Reset Password</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+
+    </div>
+</div>

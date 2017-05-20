@@ -1,0 +1,111 @@
+﻿body {
+    margin-top: 65px;
+    background: none repeat scroll 0 0 #f4f4f4;
+}
+
+.navbar {
+    background-color: #5b81ad;
+    border-color: #5b81ad;
+}
+
+.center{
+    text-align: center;
+}
+
+.nav-support{
+    color:white;
+    font-weight:500;
+}
+.nav-support:hover{
+    color:white;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.nav-support:focus{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+@media screen and (max-width: 800px) {
+    .panel-login{
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media screen and (min-width: 800px) {
+    .panel-login{
+        width: 50%;
+        margin-left: 25%;
+        padding: 50px 35px;
+    }
+    .nav-support{
+        margin-right: 20px;
+    }
+}
+
+.panel-login{
+   border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.alert-error{
+   border: 0px solid transparent !important; 
+   border-radius: 0px !important;
+}
+
+.btn-login{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.navbar-header {
+    position:relative;
+    top:-4px;
+}
+
+.navbar-brand > .icon-banner {
+    position:relative;
+    top:-2px;
+    display:inline;
+}
+
+.icon {
+    position:relative;
+    top:-10px;
+}
+
+.page-consent {
+    .client-logo {
+        float: left;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .consent-buttons {
+        margin-top: 25px;
+    }
+
+    .consent-form {
+        .consent-scopecheck {
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .consent-scopecheck[disabled] {
+            //visibility:hidden;
+        }
+
+        .consent-description {
+            margin-left: 25px;
+
+            label {
+                font-weight: normal;
+            }
+        }
+
+        .consent-remember {
+            padding-left: 16px;
+        }
+    }
+}

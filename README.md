@@ -1,0 +1,3 @@
+# ASP.NET Core 1.1 MVC Authorization Server
+
+This is an OAuth2.0 and OpenId compliant Authorization Server. The purpose of this project is to provide a fully functional and featured authorization and authentication server that any application can integrate with as a main authentication provider. This could serve as a hosted solution alternative to cloud OAuth providers such as AuthO. Why pay when you can host your own authorization and authentication service!
